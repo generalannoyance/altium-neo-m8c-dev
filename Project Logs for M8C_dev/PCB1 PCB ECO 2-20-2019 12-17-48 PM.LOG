@@ -1,0 +1,57 @@
+Removed Pin From Net: NetName=TX Pin=B1-2
+Removed Pin From Net: NetName=RX Pin=B1-3
+Change Component Footprint: Designator=C1 Old Footprint=0805CAP New Footprint=0603CAP
+Change Component Footprint: Designator=C2 Old Footprint=0805CAP New Footprint=0603CAP
+Change Component Footprint: Designator=C3 Old Footprint=0805CAP New Footprint=0603CAP
+Change Component Footprint: Designator=C4 Old Footprint=0805CAP New Footprint=0603CAP
+Change Component Footprint: Designator=C5 Old Footprint=0805CAP New Footprint=0603CAP
+Change Component Footprint: Designator=R1 Old Footprint=0805RES New Footprint=0603RES
+Change Component Comment : Designator=C1 Old Comment=C0805 New Comment=C0603
+Change Component Comment : Designator=C2 Old Comment=C0805 New Comment=C0603
+Change Component Comment : Designator=C3 Old Comment=C0805 New Comment=C0603
+Change Component Comment : Designator=C4 Old Comment=C0805 New Comment=C0603
+Change Component Comment : Designator=C5 Old Comment=C0805 New Comment=C0603
+Change Component Comment : Designator=R1 Old Comment=R0805 New Comment=R0603
+Change component parameters: Designator = "R1"; Footprint = "0603RES"; UniqueID = "\KEQPHSEU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k'"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor P/N"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=FB1(0603CAP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "CZP1JFTTD121P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance @ 100MHz"; Value = "120"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor P/N"; Value = "660-CZP1JFTTD121P"; VariantName = "[No Variations]"
+Added Component: Designator=FB2(0603CAP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "CZP1JFTTD121P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance @ 100MHz"; Value = "120"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor P/N"; Value = "660-CZP1JFTTD121P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=TX Pin=FB1-2
+Added Pin To Net: NetName=RX Pin=FB2-2
+Added Pin To Net: NetName=RX_F Pin=B1-3
+Added Pin To Net: NetName=RX_F Pin=FB2-1
+Added Net: Name=RX_F
+Added Pin To Net: NetName=TX_F Pin=B1-2
+Added Pin To Net: NetName=TX_F Pin=FB1-1
+Added Net: Name=TX_F
+Added Member To Class: ClassName=Sheet1 Member=Component FB1 FB0603
+Added Member To Class: ClassName=Sheet1 Member=Component FB2 FB0603
+Added Room: Name=Sheet1

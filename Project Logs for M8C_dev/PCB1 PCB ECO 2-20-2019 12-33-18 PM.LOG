@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=LNA_EN Pin=P2-5
+Added Pin To Net: NetName=GND Pin=P2-5

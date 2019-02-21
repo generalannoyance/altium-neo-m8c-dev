@@ -1,0 +1,12 @@
+Added Component: Designator=FT1(AFS14A34-1588.66-T3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COMPONENT LINK 1"; Value = "https://abracon.com/Filters/SAW%20FILTERS/AFS14A34-1588.66-T3.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIGIKEY PN"; Value = "535-13421-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Abracon LLC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER PN"; Value = "AFS14A34-1588.66-T3"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetB2_3 Pin=FT1-A
+Added Pin To Net: NetName=RF_GND Pin=FT1-B
+Added Pin To Net: NetName=RF_IN Pin=FT1-C
+Added Pin To Net: NetName=RF_GND Pin=FT1-D
+Added Pin To Net: NetName=RF_GND Pin=FT1-E
+Added Member To Class: ClassName=Sheet1 Member=Component FT1 AFS14A34-1588.66-T3
