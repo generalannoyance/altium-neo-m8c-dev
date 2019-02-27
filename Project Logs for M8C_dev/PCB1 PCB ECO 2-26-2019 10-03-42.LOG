@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=RF_GND Pin=NT1-0
+Removed Pin From Net: NetName=GND Pin=NT1-1
+Removed Member From Class: ClassName=Sheet1 Member=NT1
+Added Component: Designator=R2(0603RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "JMP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor P/N"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RF_GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Member To Class: ClassName=Sheet1 Member=Component B1 MAX-M8C-0-10
+Added Member To Class: ClassName=Sheet1 Member=Component R2 R0603
+Added Room: Name=Sheet1
